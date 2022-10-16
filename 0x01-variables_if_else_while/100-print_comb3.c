@@ -14,7 +14,7 @@ int main(void)
 		for (y = x + 1; y <= 9; y++)
 		{
 			putchar('0' + x);
-			puthar('0' + y);
+			putchar('0' + y);
 
 			if (x != 8 || y != 9)
 			{
