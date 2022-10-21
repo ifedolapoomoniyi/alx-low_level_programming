@@ -11,11 +11,12 @@ void print_diagonal(int n)
 	int space;
 	int diagonal;
 
-	for (diagonal = 0; diagonal < n; diagonal++)
+	for (diagonal = 1; diagonal <= n; diagonal++)
 	{
 		for (space = 1; space < diagonal; space++)
 			_putchar(' ');
 		_putchar('\\');
 		_putchar('\n');
 	}
+	_putchar('\n');
 }
