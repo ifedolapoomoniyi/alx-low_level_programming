@@ -6,6 +6,7 @@
  * @src : string to append by dest
  * @n: number of bytes, determines wheter to add terminating character if by
  * te limite exceeded
+ * Return: The address of dest
  */
 
 char *_strncat(char *dest, char *src, int n)
